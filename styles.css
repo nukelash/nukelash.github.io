@@ -1,0 +1,60 @@
+h1 {letter-spacing: 6px}
+
+.content_card {
+    max-width: 600px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f9f7f0;
+    border-radius: 4px;
+    box-shadow: 8px 12px 2px #2a1d14;
+}
+
+.item {
+  padding:4px 16px;
+  float:left;
+  width:auto;
+  border:none;
+  display:block;
+  text-decoration: none;
+  transition-duration: 200ms;
+  outline:0}
+.item:hover {
+  cursor: pointer;
+}
+/* .button1:hover {
+  background-color: #388FE5;
+  text-decoration: none;
+} 
+.button2:hover {
+  background-color: #946846;
+  text-decoration: none;
+} 
+.button3:hover {
+  background-color: #9C528B;
+  text-decoration: none;
+} 
+.button4:hover {
+  background-color: #FA824C;
+  text-decoration: none;
+}  */
+hr.my_divider {
+  border:0.5px solid black;
+  /* border-bottom:1px solid black; */
+  margin:2px 0px
+}
+.design {
+  display: flex;
+  max-width: 300px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.circle {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
