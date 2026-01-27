@@ -1,11 +1,38 @@
-h1 {letter-spacing: 6px}
+h1 {
+  font-family: HeaderFont;
+  letter-spacing: 6px
+}
+h3 {
+  font-family: HeaderFont2
+}
 
-.content_card {
-    max-width: 600px;
+@font-face {
+  font-family: HeaderFont;
+  src: url('assets/butler/Butler_Webfont/Butler-Medium.woff2');
+}
+
+@font-face {
+  font-family: HeaderFont2;
+  src: url('assets/lt_wave/LTWave-Regular.otf');
+}
+
+.card_container {
+    max-width: 800px;
     margin-top: 32px;
     margin-bottom: 32px;
     margin-left: auto;
     margin-right: auto;
+    background-color: #946846;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.content_card {
+    /* max-width: 800px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    margin-left: auto;
+    margin-right: auto; */
     background-color: #f9f7f0;
     border-radius: 4px;
     box-shadow: 8px 12px 2px #2a1d14;
@@ -21,26 +48,12 @@ h1 {letter-spacing: 6px}
   display:block;
   text-decoration: none;
   transition-duration: 200ms;
-  outline:0}
+  outline:0;
+  font-family: HeaderFont2;}
+
 .item:hover {
   cursor: pointer;
 }
-/* .button1:hover {
-  background-color: #388FE5;
-  text-decoration: none;
-} 
-.button2:hover {
-  background-color: #946846;
-  text-decoration: none;
-} 
-.button3:hover {
-  background-color: #9C528B;
-  text-decoration: none;
-} 
-.button4:hover {
-  background-color: #FA824C;
-  text-decoration: none;
-}  */
 hr.my_divider {
   border:0.5px solid black;
   /* border-bottom:1px solid black; */
